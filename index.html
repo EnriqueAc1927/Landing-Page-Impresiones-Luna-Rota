@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page Impresiones Luna Rota</title>
+  <meta name="description" content="Landing Page para la empresa Impresiones Luna Rota">
+  <meta name="keywords" content="impresiones, camisas, vinil, personalizado">
+  <meta name="author" content="Acosta Medina Alan Enrique">
+  <meta name="robots" content="index, follow">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="shortcut icon" href="icons/icon.ico">
+  <style>
+    @media (max-width: 767.98px) {
+      #logo img {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="row justify-content-center my-5">
+      <div id="logo" class="col-12 col-md-4 text-center">
+        <img src="imagenes/Luna Rota Logo 2023.jpg" class="rounded-circle w-50" alt="...">
+        <article id="title1" class="text-center m-4">
+          <h3>Regístrate en nuestra página</h3>
+          <h2>¡Y sé acreedor a una fabulosa oferta!</h2>
+        </article>
+      </div>
+      <div class="col-12 col-md-8 d-flex flex-column align-items-center">
+        <section id="registro" class="w-100 mt-4">
+          <form class="p-4">
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Nombres</label>
+              <input type="text" class="form-control" id="exampleInputEmail1">
+              <div id="emailHelp">Tus datos no serán compartidos con nadie más</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Apellidos</label>
+              <input type="text" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Nombre de Usuario</label>
+              <input type="text" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Correo</label>
+              <input type="email" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check text-center">
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Registrarse
+              </button>
+            </div>
+          </form>
+        </section>
+      </div>
+    </div>
+  </div>
+
+  <footer class="text-center mt-4">
+    <div id="contacto">Contactos:</div>
+    <section class="contacto d-flex justify-content-center">
+      <a href="https://wa.me/message/ZJ4LQWRWAKAWO1">
+        <img id="contactos" src="imagenes/W.png" alt="whatsapp">
+      </a>
+      <a href="https://www.instagram.com/impresioneslunarota/">
+        <img id="contactos" src="imagenes/I.png" alt="instagram">
+      </a>
+      <a href="https://www.facebook.com/Impresioneslunarota/">
+        <img id="contactos" src="imagenes/F.png" alt="facebook">
+      </a>
+    </section>
+    <p>
+      <a id="copyright" href="https://www.copyright.gov/espanol/">Copyright &copy; Luna Rota 2024</a>
+    </p>
+  </footer>
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">¡Felicidades! Has ganado un cupón de regalo</h1>
+        </div>
+        <div class="modal-body text-center">
+          <div class="cupon-container">
+            <img src="imagenes/cuponF.png" alt="cupon F" class="cupon f">
+            <img src="imagenes/cuponT.png" alt="cupon T" class="cupon t">
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+            <a href="https://enriqueac1927.github.io/Impresiones-Luna-Rota/" style="color: inherit; text-decoration: none;">
+              Ir a la página informativa
+            </a>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+  <script src="js/bootstap.js"></script>
+</body>
+</html>

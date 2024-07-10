@@ -1,0 +1,27 @@
+.cupon-container {
+    position: relative;
+    width: 70%;
+    margin: auto;
+  }
+  
+  .cupon {
+    width: 100%;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  }
+  
+  .cupon.t {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+  }
+  
+  .cupon-container:hover .cupon.t {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+  
+  .cupon-container:hover .cupon.f {
+    opacity: 0;
+  }
+  
